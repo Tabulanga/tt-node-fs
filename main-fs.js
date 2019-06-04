@@ -62,7 +62,7 @@ const replaceKeysInAllFiles = async (dir, replacementList) => {
 
 module.exports = [
   replaceKeysInAllFiles,
+  replaceKeysInFile,
   getFileList,
   findAndReplaceSubstr,
-  replaceKeysInFile,
 ];

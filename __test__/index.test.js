@@ -1,7 +1,10 @@
 const os = require('os');
 const path = require('path');
 const fs = require('fs');
-const [getFileList, findAndReplaceSubstr, replaceKeysInFile] = require('../main-fs');
+const [replaceKeysInAllFiles,
+  replaceKeysInFile,
+  getFileList,
+  findAndReplaceSubstr] = require('../main-fs');
 
 const testDir = fs.mkdtempSync(path.join(os.tmpdir(), 'tt-node-fs-'));
 const files = [
