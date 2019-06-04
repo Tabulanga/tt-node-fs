@@ -6,6 +6,13 @@
 
 ## Используется Node 12
 
+### Установка
+```
+git clone https://github.com/Tabulanga/tt-node-fs.git
+cd tt-node-fs
+npm install
+```
+
 ### Пример запуска из консоли
 ```
 node index.js ./demo search.json
@@ -13,12 +20,6 @@ cat ./demo/file
 
 node index.js ./demo search2.json
 cat ./demo/file
-```
-### Запуск тестов на JEST
-```
-git clone https://github.com/Tabulanga/tt-node-fs.git
-cd tt-node-fs
-npm install
 ```
 
 ### Запуск тестов на JEST
